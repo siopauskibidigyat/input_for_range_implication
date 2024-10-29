@@ -24,7 +24,20 @@ while True:
     #elif input is greater than or equal 11 and less than or equal 20
             #add 1 to range 11-20
             elif input_number >= 11 and input_number <= 20:
-                number_ranges["11-20"] += 1   
+                number_ranges["11-20"] += 1 
+    #elif input is greater than or equal 21 and less than or equal 30
+            #add 1 to range 21-30
+            elif input_number >= 21 and input_number <= 30:
+                number_ranges["21-30"] += 1 
+    #elif input is greater than or equal 31 and less than or equal 40
+            #add 1 to range 31-40
+            elif input_number >= 31 and input_number <= 40:
+                number_ranges["31-40"] += 1 
+    #elif input is greater than or equal 41 and less than or equal 50
+            #add 1 to range 41-50
+            elif input_number >= 41 and input_number <= 50:
+                number_ranges["41-50"] += 1 
+        
         else:
             break
             
@@ -34,18 +47,18 @@ while True:
         print("Please input a valid value")
 #if input number less than 1 or input number greater than 50
     #break loop, then print how many inputted numbers are in the following range
-print("the number of inputted numbers for each range are: ")
+print("The number of inputted numbers for each range are: ")
 print(f"range 1-10 = {number_ranges["1-10"]}")
 print(f"range 11-20 = {number_ranges["11-20"]}")
+print(f"range 21-30 = {number_ranges["21-30"]}")
+print(f"range 31-40 = {number_ranges["31-40"]}")
+print(f"range 41-50 = {number_ranges["41-50"]}")
     
         
         
-        #elif input is greater than or equal 21 and less than or equal 30
-            #add 1 to range 21-30
-        #elif input is greater than or equal 31 and less than or equal 40
-            #add 1 to range 31-40
-        #elif input is greater than or equal 41 and less than or equal 50
-            #add 1 to range 41-50
+        
+        
+        
 
 
 
