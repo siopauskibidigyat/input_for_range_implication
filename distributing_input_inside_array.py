@@ -21,7 +21,6 @@
             #add 1 to range 41-50
 #if input number less than 1 or input number greater than 50
     #break loop, then print how many inputted numbers are in the following range
-# Define a dictionary with ranges as keys and counts as values
 
 
 
