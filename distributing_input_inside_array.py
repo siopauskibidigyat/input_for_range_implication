@@ -21,7 +21,10 @@ while True:
             #add 1 to range 1-10        
             if input_number >= 1 and input_number <= 10:
                 number_ranges["1-10"] += 1
-        
+    #elif input is greater than or equal 11 and less than or equal 20
+            #add 1 to range 11-20
+            elif input_number >= 11 and input_number <= 20:
+                number_ranges["11-20"] += 1   
         else:
             break
             
@@ -33,10 +36,10 @@ while True:
     #break loop, then print how many inputted numbers are in the following range
 print("the number of inputted numbers for each range are: ")
 print(f"range 1-10 = {number_ranges["1-10"]}")
+print(f"range 11-20 = {number_ranges["11-20"]}")
     
         
-        #elif input is greater than or equal 11 and less than or equal 20
-            #add 1 to range 11-20
+        
         #elif input is greater than or equal 21 and less than or equal 30
             #add 1 to range 21-30
         #elif input is greater than or equal 31 and less than or equal 40
