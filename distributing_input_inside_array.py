@@ -1,9 +1,21 @@
 #identify array
+number_ranges = {}
     #define range counters for each range
+number_ranges = {
+    "1-10" : 0,
+    "11-20" : 0,
+    "21-30" : 0,
+    "31-40" : 0,
+    "41-50" : 0
+}
 #ask user to input numbers 1-50
-
+while True:
+    try:
+        input_number = int(input("Please input a number between 1 to 50: "))
     #if input is not int
         #print "Please input a valid number"
+    except:
+        print("Please input a valid value")
 
 #input will be stored in array
     #for every input, add 1 to the respective range
